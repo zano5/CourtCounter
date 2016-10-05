@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.user11.courtcounter.MainActivity"
+
+   >
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="@string/team_a"
+        android:id="@+id/textView"
+        android:layout_gravity="center_horizontal"
+        android:paddingTop="10dp"
+        android:textColor="@color/colorBlack"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="@string/_0"
+        android:id="@+id/tvScore"
+        android:layout_gravity="center_horizontal"
+        android:paddingTop="10dp"
+        android:textColor="@color/colorBlack"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/_3_points"
+        android:id="@+id/btn3Points"
+        android:layout_marginTop="20dp"
+        android:onClick="onClick"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/_2_points"
+        android:id="@+id/btn2Points"
+        android:layout_marginTop="20dp"
+        android:onClick="onClick"
+        android:textColor="@color/colorBlack"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/free_throw"
+        android:id="@+id/btnFreeThrow"
+        android:layout_marginTop="20dp"
+        android:onClick="onClick"
+        android:textColor="@color/colorBlack"/>
+
+
+</LinearLayout>
